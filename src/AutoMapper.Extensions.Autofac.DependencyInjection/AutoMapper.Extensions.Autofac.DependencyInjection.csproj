@@ -10,6 +10,7 @@
     <Description>An extension for Autofac-IoC to use AutoMapper with ease.</Description>
     <PackageProjectUrl>https://github.com/cleancodelabs/automapper-extensions-autofac-dependencyInjection</PackageProjectUrl>
     <PackageTags>AutoMapper, Object-To-Object-Mapping, Mapper, Autofac, IoC</PackageTags>
+    <PackageIconUrl>https://s3.amazonaws.com/automapper/icon.png</PackageIconUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/cleancodelabs/automapper-extensions-autofac-dependencyInjection</RepositoryUrl>
   </PropertyGroup>
