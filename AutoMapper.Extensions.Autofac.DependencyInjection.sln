@@ -7,6 +7,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{856B38C8-9F4F-4D0B-B33C-295625F9B760}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{11A83071-C2B6-4625-AA44-60F23A20C11B}"
+ProjectSection(SolutionItems) = preProject
+	readme.md = readme.md
+	licence.md = licence.md
+	changelog.md = changelog.md
+	.gitignore = .gitignore
+EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.Autofac.DependencyInjection", "src\AutoMapper.Extensions.Autofac.DependencyInjection\AutoMapper.Extensions.Autofac.DependencyInjection.csproj", "{56C745A3-2744-4B29-A4E6-1433E0677BE2}"
 EndProject
