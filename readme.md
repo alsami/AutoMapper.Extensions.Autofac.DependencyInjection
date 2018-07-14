@@ -1,7 +1,7 @@
-# MediatR.Extensions.Autofac.DependencyInjection
+# AutoMapper.Extensions.Autofac.DependencyInjection
 
-[![NuGet](https://img.shields.io/nuget/dt/AutoMapper.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/AutoMapper.Extensions.Autofac.DependencyInjection) 
-[![NuGet](https://img.shields.io/nuget/vpre/AutoMapper.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/AutoMapper.Extensions.Autofac.DependencyInjection)
+[![NuGet](https://img.shields.io/nuget/dt/CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection) 
+[![NuGet](https://img.shields.io/nuget/vpre/CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection)
 
 This is a cross platform library, written in .netstandard 2.0, that serves as an extension for [autofac's containerbuilder](https://autofac.org/).
 It will register all necessary classes and interfaces of Jimmy Bogard's [AutoMapper](https://github.com/AutoMapper/AutoMapper) implementation to the autofac-container 

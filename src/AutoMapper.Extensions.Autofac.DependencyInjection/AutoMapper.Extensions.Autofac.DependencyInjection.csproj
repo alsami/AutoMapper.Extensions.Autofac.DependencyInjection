@@ -6,6 +6,7 @@
     <FileVersion>1.0.0.0</FileVersion>
     <Copyright>2018©CleanCode-Labs</Copyright>
     <Authors>Sami Al Khatib</Authors>
+    <PackageId>CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection</PackageId>
     <Title>AutoMapper-Autofac-Extension</Title>
     <Description>An extension for Autofac-IoC to use AutoMapper with ease.</Description>
     <PackageProjectUrl>https://github.com/cleancodelabs/AutoMapper.Extensions.Autofac.DependencyInjection</PackageProjectUrl>
