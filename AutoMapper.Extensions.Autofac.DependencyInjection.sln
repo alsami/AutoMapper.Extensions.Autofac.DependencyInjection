@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C87C815F-D309-4846-933A-45221E6AC4E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7E905FA2-EB17-4082-92C8-244C3933783F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{856B38C8-9F4F-4D0B-B33C-295625F9B760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{11A83071-C2B6-4625-AA44-60F23A20C11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.Autofac.DependencyInjection", "src\AutoMapper.Extensions.Autofac.DependencyInjection\AutoMapper.Extensions.Autofac.DependencyInjection.csproj", "{56C745A3-2744-4B29-A4E6-1433E0677BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.Autofac.DenpendencyInjection.TestInfrastructure", "test\AutoMapper.Extensions.Autofac.DenpendencyInjection.TestInfrastructure\AutoMapper.Extensions.Autofac.DenpendencyInjection.TestInfrastructure.csproj", "{84632F37-2C23-476C-A67B-C6A02B8A6B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.Autofac.DependencyInjection.IntegrationTests", "test\AutoMapper.Extensions.Autofac.DependencyInjection.IntegrationTests\AutoMapper.Extensions.Autofac.DependencyInjection.IntegrationTests.csproj", "{9D38A0AC-01AE-4356-BC64-CF46BB79EA0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56C745A3-2744-4B29-A4E6-1433E0677BE2} = {C87C815F-D309-4846-933A-45221E6AC4E2}
+		{84632F37-2C23-476C-A67B-C6A02B8A6B95} = {7E905FA2-EB17-4082-92C8-244C3933783F}
+		{9D38A0AC-01AE-4356-BC64-CF46BB79EA0F} = {7E905FA2-EB17-4082-92C8-244C3933783F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C745A3-2744-4B29-A4E6-1433E0677BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C745A3-2744-4B29-A4E6-1433E0677BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C745A3-2744-4B29-A4E6-1433E0677BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C745A3-2744-4B29-A4E6-1433E0677BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84632F37-2C23-476C-A67B-C6A02B8A6B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84632F37-2C23-476C-A67B-C6A02B8A6B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84632F37-2C23-476C-A67B-C6A02B8A6B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84632F37-2C23-476C-A67B-C6A02B8A6B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D38A0AC-01AE-4356-BC64-CF46BB79EA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D38A0AC-01AE-4356-BC64-CF46BB79EA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D38A0AC-01AE-4356-BC64-CF46BB79EA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D38A0AC-01AE-4356-BC64-CF46BB79EA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
