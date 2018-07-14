@@ -12,13 +12,13 @@ so you can use AutoMapper and object-mapping right ahread without worrying about
 This package is available via nuget. You can install it using Visual-Studio-Nuget-Browser or by using the dotnet-cli
 
 ```
-dotnet add package AutoMapper.Extensions.Autofac.DependencyInjection
+dotnet add package CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection
 ```
 
 If you want to add a specific version of this package
 
 ```
-dotnet add package AutoMapper.Extensions.Autofac.DependencyInjection -v 1.0.0
+dotnet add package CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection -v 1.0.0
 ```
 
 For more information please visit the official [dotnet-cli documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package).
