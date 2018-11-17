@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Autofac;
-using AutoMapper.EquivalencyExpression;
 
 namespace AutoMapper.Extensions.Autofac.DependencyInjection
 {
     public static class ContainerBuilderExtensions
     {
         private static readonly Action<IMapperConfigurationExpression> FallBackExpression = 
-            config => config.AddCollectionMappers();
+            config => {};
 
         public static ContainerBuilder AddAutoMapper(this ContainerBuilder builder, params Assembly[] assemblies)
             => AddAutoMapperInternal(builder, assemblies);

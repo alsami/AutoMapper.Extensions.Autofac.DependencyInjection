@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Autofac;
-using AutoMapper.EquivalencyExpression;
 using Module = Autofac.Module;
 
 namespace AutoMapper.Extensions.Autofac.DependencyInjection

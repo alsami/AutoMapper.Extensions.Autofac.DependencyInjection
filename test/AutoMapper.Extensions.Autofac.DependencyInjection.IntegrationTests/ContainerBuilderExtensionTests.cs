@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using Autofac;
-using AutoMapper.EquivalencyExpression;
 using AutoMapper.Extensions.Autofac.DenpendencyInjection.TestInfrastructure.Dtos;
 using AutoMapper.Extensions.Autofac.DenpendencyInjection.TestInfrastructure.Entities;
 using Xunit;
@@ -14,7 +12,7 @@ namespace AutoMapper.Extensions.Autofac.DependencyInjection.IntegrationTests
         public void ContainerBuilderExtensions_AddAutoMapperAssembliesOnly_ExpectTypesToBeRegistered()
         {
             var container = new ContainerBuilder()
-                .AddAutoMapper(expression => expression.AddCollectionMappers(), typeof(Customer).Assembly)
+                .AddAutoMapper(typeof(Customer).Assembly)
                 .Build();
             
             Assert.True(container.IsRegistered<IEnumerable<Profile>>());
@@ -28,6 +26,10 @@ namespace AutoMapper.Extensions.Autofac.DependencyInjection.IntegrationTests
 
             var resolver = container.Resolve<IValueResolver<Customer, CustomerDto, string>>();
             Assert.NotNull(resolver);
+
+            var mapper = container.Resolve<IMapper>();
+            
+            Assert.NotNull(mapper);
         }
     }
 }
