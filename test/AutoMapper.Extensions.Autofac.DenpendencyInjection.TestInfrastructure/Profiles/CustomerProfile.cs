@@ -10,7 +10,7 @@ namespace AutoMapper.Extensions.Autofac.DenpendencyInjection.TestInfrastructure.
         {
             this.CreateMap<Customer, CustomerDto>()
                 .ForMember(destination => destination.FullName,
-                    options => options.ResolveUsing<CustomerFullNameResolver>())
+                    options => options.MapFrom<CustomerFullNameResolver>())
                 .ReverseMap()
                 .ConvertUsing<CustomerTypeConverter>();
         }
