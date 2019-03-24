@@ -1,3 +1,9 @@
+# [3.1.0](https://www.nuget.org/packages/AutoMapper.Extensions.Autofac.DependencyInjection/3.1.0) (2019-03-24)
+
+## Chore
+
+* Update Autofac to version 4.9.2
+
 # [3.0.0](https://www.nuget.org/packages/AutoMapper.Extensions.Autofac.DependencyInjection/3.0.0) (2018-11-17)
 
 ## Breaking changes / Bug fixes
@@ -10,7 +16,7 @@
 
 * Updating to AutoMapper 8.0.0 introduces breaking changes by renaming some function. Please checkout the [upgrade-guide](https://github.com/AutoMapper/AutoMapper/blob/master/docs/8.0-Upgrade-Guide.md) for more information.
 
-## Features
+## Chore
 
 * Update AutoMapper to version 8.0.0
 
