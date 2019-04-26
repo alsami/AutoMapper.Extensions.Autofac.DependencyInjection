@@ -1,3 +1,9 @@
+# [3.2.0](https://www.nuget.org/packages/AutoMapper.Extensions.Autofac.DependencyInjection/3.2.0) (2019-04-26)
+
+## Chore
+
+* Update to AutoMapper 8.1 and add tests to validate Autofac-Module is working fine with Attribute-Based-Mappings
+
 # [3.1.0](https://www.nuget.org/packages/AutoMapper.Extensions.Autofac.DependencyInjection/3.1.0) (2019-03-24)
 
 ## Chore

@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.2</LangVersion>
-    <Version>3.1.0</Version>
-    <FileVersion>3.1.0.0</FileVersion>
-    <Copyright>2018©CleanCode-Labs</Copyright>
+    <Version>3.2.0</Version>
+    <FileVersion>3.2.0.0</FileVersion>
+    <Copyright>2019©CleanCode-Labs</Copyright>
     <Authors>Sami Al Khatib</Authors>
     <PackageId>CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection</PackageId>
     <Title>AutoMapper-Autofac-Extension</Title>
@@ -17,6 +17,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.9.2" />
-    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
   </ItemGroup>
 </Project>
