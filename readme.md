@@ -1,6 +1,6 @@
 # ATTENTION!
 
-This package has been discontinued and the sources were moved to this [repository](https://github.com/cleancodelabs/AutoMapper.Contrib.Autofac.DependencyInjection). Please use the new [package](https://www.nuget.org/packages/AutoMapper.Contrib.Autofac.DependencyInjection).
+This package and repository has been discontinued with today (2019-05-16) and the sources were moved to this [repository](https://github.com/cleancodelabs/AutoMapper.Contrib.Autofac.DependencyInjection). Please use the new [package](https://www.nuget.org/packages/AutoMapper.Contrib.Autofac.DependencyInjection).
 
 # AutoMapper.Extensions.Autofac.DependencyInjection
 
