@@ -1,3 +1,7 @@
+# ATTENTION!
+
+This package has been discontinued and the sources were moved to this [repository](https://github.com/cleancodelabs/AutoMapper.Contrib.Autofac.DependencyInjection)
+
 # AutoMapper.Extensions.Autofac.DependencyInjection
 
 [![NuGet](https://img.shields.io/nuget/dt/CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection) 
@@ -27,7 +31,3 @@ For more information please visit the official [dotnet-cli documentation](https:
 ## Usage
 
 After you have successfully installed the package go ahead to your class and use the extension.
-
-## TODO
-
-Samples
